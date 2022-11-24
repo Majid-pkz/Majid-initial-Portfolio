@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: rgb(207, 204, 204);
+}
+nav{
+    width: auto;
+    height: 80px;
+   background-color:#31343D  ;
+}
+
+
+ul{
+  text-align: right;
+  margin-right: 40px;
+  margin-top: -20px;
+ 
+}
+nav li{
+color: #92CCCD;
+font-size:20px;
+font-family: Arial, Helvetica, sans-serif;
+display: inline;
+margin-right: 20px;
+border-bottom: 4px solid #92CCCD ;
+
+}
+nav a{
+    color:#92CCCD;
+    text-decoration: none;
+}
+ h1{
+    color: #31343D;
+    font-size:  300%;
+    font-weight:200px;
+    background-color:#92CCCD ;
+    width:fit-content;    
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40px;
+    position: relative;
+    top:10px   
+}
+#top{
+    position: relative;
+    margin-top: 0px;
+    width: auto;
+    height: 300px;
+    
+    background-image: repeating-linear-gradient(#708de7,#062c2d,rgba(255, 0, 187, 0.548));
+    
+  
+
+    }
+     #subtitle{
+        font-size: 150%;
+        width:fit-content;
+        height:fit-content;
+        background-color: #92CCCD;          
+       position: relative;
+       left:80% ;       
+       top: 220px ;
+       display: inline;
+       
+       
+       
+    }
+    #me-aside {       
+        width:300px;
+        height: 300px;
+        font-size: 500%;
+        padding-left: 80px;
+        margin-right: 40px;        
+        border-right: 3px solid #31343D;
+        position: relative;
+        float: left;
+    }
+    #candidate-photo{
+        width: 200px;
+    }
+    .art1 {
+        font-size: 180%;  
+        margin-top: 40px; 
+        margin-right: 40px;
+        display: flex; 
+        flex-wrap: wrap;
+        text-align: justify;      
+
+    }
+    #main-photo{
+        width: 1000px;
+        height: 400px;
+        float: none;
+    }
+    .photo{
+        width: 500px;
+        height: 200px;
+        border: 5px solid rgb(1, 38, 38);
+        display: inline-block;
+    }
+    section{
+        margin-top: 100px;
+    }
+    #work-aside{
+        width:300px;
+        height: 800px;
+        font-size: 500%;
+        padding-left: 80px;
+        margin-right: 40px;        
+        border-right: 3px solid #31343D;
+        position: relative;
+        float: left;     
+      
+    }
+    footer{
+        margin-top: 150px;
+    }
+    #contact-aside {       
+        width:300px;
+        height: 200px;
+        font-size: 400%;
+        padding-left: 80px;
+        margin-right: 40px;
+        
+        border-right: 3px solid #31343D;
+        position: relative;
+        float: left;
+    }
+    footer ul{
+        text-align: center;
+       
+        
+        
+        margin-top: 100px;
+    }
+    footer li{
+        color:black;
+        font-size:30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-right: 50px;
+        display: inline;
+        position: relative;
+        top:100px;       
+        text-decoration: none;
+
+    }
