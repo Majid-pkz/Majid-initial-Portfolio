@@ -216,6 +216,9 @@
             font-size: 20px;
             font-family: var(--font-family);
         }
+        img:hover {
+            transform: scale(1.2);
+          }
       
           
         /* Responsiveness */
