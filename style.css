@@ -217,3 +217,131 @@
             font-family: var(--font-family);
         }
       
+          
+        /* Responsiveness */
+
+        @media screen and (max-width:1350px){
+            #subtitle{
+                font-size: 150%;            
+                left:30% ;              
+            }   
+        }
+
+        @media screen and (max-width:1050px){
+
+            #subtitle{
+                font-size: 150%;       
+              
+               left:10% ;       
+                
+              
+               
+            }  
+            nav h1{
+                font-size:150%;
+            } 
+          
+        p{
+            font-size: 15px;
+        }
+        h2{
+            font-size: 25px;
+        }
+        nav{
+            font-size: 17px;
+        }
+        .contact-links{
+            font-size: 13px;
+            padding: 0 0 0 30px;
+        }
+        .text{
+            padding: 0 0 0 30px;
+        }
+        .grid{
+            padding: 0 0 0 30px;
+        }
+        }
+
+        @media screen and (max-width: 968px) {
+            .row {
+              flex-direction:column;             
+            }                    
+          
+              #cool-text {
+                font-size: 20px;              
+                width:50px;
+                height:40px;                           
+              }
+              #top{                            
+                padding-bottom: 500px;            
+              
+                }
+            }
+        @media screen and (max-width:800px){
+          
+          nav h1{
+                font-size: 100%;
+            } 
+            nav ul{     
+                
+               margin-top: 100px;
+               font-size: 80%;
+                   
+            }
+        figcaption{
+            font-size: 15px;
+            width: 150px;
+        }
+        section{
+            display: inline-block;
+            padding:0;
+        }
+        h2{
+            text-align: center;
+            padding: 0 0 20px 0;
+        }
+        .text{
+            border: transparent;
+        }
+        .grid{
+            border: transparent;
+        }
+        .contact-links{
+            border:transparent;
+        }
+        nav ul{
+            font-size: 14px;
+        }
+            
+        .headers{
+            text-align: center;
+            width: 100%;
+        }
+      
+        section{
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact-links{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+        }
+        @media screen and (max-width:600px){
+         
+        .grid{
+            display:flex;
+            flex-direction: column;
+        }
+        .contact-links{
+            padding:0;
+        }
+        h3{
+            font-size: 15px;
+        }
+        }
