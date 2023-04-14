@@ -20,4 +20,4 @@ This portfolio is a collection of my works that showcases my skills, experience,
 
 
 ## Link to the application
-
+https://majid-pkz.github.io/Majid-initial-Portfolio/
