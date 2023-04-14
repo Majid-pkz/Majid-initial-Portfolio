@@ -1,149 +1,219 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-   
-}
-body{
-    background-color: rgb(207, 204, 204);
-}
-nav{
-    width: auto;
-    height: 80px;
-   background-color:#31343D  ;
-}
 
+       *  {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+           
+        }
 
-ul{
-  text-align: right;
-  margin-right: 40px;
-  margin-top: -20px;
- 
-}
-nav li{
-color: #92CCCD;
-font-size:20px;
-font-family: Arial, Helvetica, sans-serif;
-display: inline;
-margin-right: 20px;
-border-bottom: 4px solid #92CCCD ;
+         body{
+            background-color: rgb(207, 204, 204);
+        }
+        #subtitle{
+            font-size: 150%;       
+            background-color: #92CCCD;          
+           position: relative;
+           left:50% ;       
+           top: 100px ; 
+           display:inline;   
+          
+           
+        }
+        #cool-text{
+            background-color: #92CCCD;
+            width: fit-content;
+           
+            padding: 10px;
+        }
 
-}
-nav a{
-    color:#92CCCD;
-    text-decoration: none;
-}
- h1{
-    color: #31343D;
-    font-size:  300%;
-    font-weight:200px;
-    background-color:#92CCCD ;
-    width:fit-content;    
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 40px;
-    position: relative;
-    top:10px   
-}
-#top{
-    position: relative;
-    margin-top: 0px;
-    width: auto;
-    height: 300px;
+        #candidate-photo{
+            width: 200px;
+            float: left;
+            margin-right: 30px;
+            margin-left: 10px; 
+            margin-bottom: 20px;
+            margin-top:20px;
+        }
+        nav{
+            width: auto;
+            height: 180px;
+           background-color:#31343D  ;
+        }
+        nav li{
+            color: #92CCCD;
+            font-size:20px;
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline;
+            margin-right: 20px;
+            border-bottom: 4px solid #92CCCD ;
+            
+            }
+            nav a{
+                color:#92CCCD;
+                text-decoration: none;
+            }
+           nav ul{
+                text-align: right;
+                margin-right: 40px;
+                margin-top: 20px;
+               
+              }
+             nav h1{
+                color: #31343D;
+                font-size:  300%;
+                font-weight:200px;
+                background-color:#92CCCD ;
+                width:fit-content;    
+                font-family: Arial, Helvetica, sans-serif;
+                padding-left: 10px;
+                margin-left: 20px;
+
+                position: relative;
+                top:50px   
+            }
+            #top{
+                position: relative;
+                margin-top: 0px;
+                width: auto;
+                height: 300px;
+                margin-bottom: 100px;
+                
+                background-image: repeating-linear-gradient(#708de7,#062c2d,rgba(255, 0, 187, 0.548));
+                
+              
+            
+                }
+                .art-section{
+                    margin-bottom: 230px;
+                }
+                
+                    .art1 {
+                        font-size: 180%;  
+                        margin-top: 40px; 
+                        margin-right: 40px;
+                        display: flex; 
+                        flex-wrap: wrap;
+                        text-align: justify;  
+                        
+                
+                    }
+                    .row{
+                        display: flex;
+                        /* flex: 90%; */
+                        align-items: center; 
+
+                    }
+
+/* creating variable for font-family */
+         :root{          
+        
+            --font-family: Arial, Helvetica, sans-serif;
+        }
+
+        
     
-    background-image: repeating-linear-gradient(#708de7,#062c2d,rgba(255, 0, 187, 0.548));
+        p{
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        ul {
+            list-style-type: none;
+            margin-left: 10px;
+        }
+        
+        li {
+            display: inline-block;
+            margin-left: 25px;
+        }
+        li:hover{
+            text-decoration: underline;
+            color:white;
+            cursor:pointer;
+        }
+        section{
+        padding:  50px 0px 50px 50px;
+        display:flex;
+        width: 100%;
+        }
+       
+
+       
+        .content{
+            display:flex;
+            flex-direction: column;
+            width: 90%;
+            text-align:justify;
+         
+
+        }
+        .text{
+            margin-left: 10px;
+            border-left: 3px solid  #31343D;
+            padding: 0px 10px 0px 140px;
+            width:80%;
+            line-height: 1.2;
+        }
+        h2{
+            font-size: 35px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
     
-  
-
-    }
-     #subtitle{
-        font-size: 150%;
-        width:fit-content;
-        height:fit-content;
-        background-color: #92CCCD;          
-       position: relative;
-       left:80% ;       
-       top: 220px ;
-       display: inline;
+        
+        .grid{
+            padding:  0px 10px 0px 140px;
+            width: 80%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-auto-rows: 300px;
+            gap:30px;
+            margin-left: 10px;
+            border-left: 3px solid  #31343D;
+        }
+        
+        .box  img {
+        width:100%;
+        height: 100%;
+        object-fit: cover;
+        filter:contrast(65%);
+        margin-left: 20px;
+        }
+        .box > img:hover{
+            cursor:pointer;
+            filter:contrast(100%);
+        }
+        #large-image {
+            grid-column: span 2;
+        }
+        figcaption{
+            position: relative;
+            bottom: 70px;
+            font-size: 150%;
+            width:fit-content;
+            height: auto;
+            background-color: #92CCCD;
+            border: 10px solid #92CCCD;
+            margin-left: 20px;
+        }
        
-       
-       
-    }
-    #me-aside {       
-        width:300px;
-        height: 300px;
-        font-size: 500%;
-        padding-left: 80px;
-        margin-right: 40px;        
-        border-right: 3px solid #31343D;
-        position: relative;
-        float: left;
-    }
-    #candidate-photo{
-        width: 200px;
-    }
-    .art1 {
-        font-size: 180%;  
-        margin-top: 40px; 
-        margin-right: 40px;
-        display: flex; 
-        flex-wrap: wrap;
-        text-align: justify;      
-
-    }
-    #main-photo{
-        width: 1000px;
-        height: 400px;
-        float: none;
-    }
-    .photo{
-        width: 500px;
-        height: 200px;
-        border: 5px solid rgb(1, 38, 38);
-        display: inline-block;
-    }
-    section{
-        margin-top: 100px;
-    }
-    #work-aside{
-        width:300px;
-        height: 800px;
-        font-size: 500%;
-        padding-left: 80px;
-        margin-right: 40px;        
-        border-right: 3px solid #31343D;
-        position: relative;
-        float: left;     
+        .contact{
+            padding: 50px 0px 50px 50px;
+            width: 100%;
+            
+        }
+        
+        .custom-headers{
+            width: 14%;
+            text-align:right;
+        }
+        .contact-a{
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            border-left: 3px solid #31343D;
+            margin-left: 10px;
+            padding:0px 10px 0px 140px;
+            font-size: 20px;
+            font-family: var(--font-family);
+        }
       
-    }
-    footer{
-        margin-top: 150px;
-    }
-    #contact-aside {       
-        width:300px;
-        height: 200px;
-        font-size: 400%;
-        padding-left: 80px;
-        margin-right: 40px;
-        
-        border-right: 3px solid #31343D;
-        position: relative;
-        float: left;
-    }
-    footer ul{
-        text-align: center;
-       
-        
-        
-        margin-top: 100px;
-    }
-    footer li{
-        color:black;
-        font-size:30px;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-right: 50px;
-        display: inline;
-        position: relative;
-        top:100px;       
-        text-decoration: none;
-
-    }
