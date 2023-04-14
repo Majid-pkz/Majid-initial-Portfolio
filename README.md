@@ -9,12 +9,14 @@ This portfolio is a collection of my works that showcases my skills, experience,
 
 * About Me
 * Work- collection of projects
-* Contacts methods
+* Contact methods
 * Resume
 
 ## Mock-Up
 
-
+<p >
+    <img src="./assets/Mock.png">
+</p>
 
 
 ## Link to the application
